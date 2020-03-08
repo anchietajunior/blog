@@ -206,6 +206,7 @@ body::-webkit-scrollbar-thumb {
 
 .post-info {
   display: flex;
+  flex-wrap: wrap;
   margin: 25px 0 30px;
   font-family: 'Josefin Sans', sans-serif;
   color: #777;
@@ -224,6 +225,14 @@ body::-webkit-scrollbar-thumb {
 .post-date {
   padding-top: 5px;
   position: relative;
+}
+
+.post-tags {
+
+  @media (max-width: 600px) {
+    margin-left: 0;
+    padding-top: 20px;
+  }
 }
 
 .post-tag {

@@ -35,7 +35,6 @@ const IndexPage = () => {
             <li key={edge.node.fields.slug}>
               <Link to={`/blog/${edge.node.fields.slug}`}>
                 <h2>{edge.node.frontmatter.title}</h2>
-                <p>{edge.node.frontmatter.date}</p>
               </Link>
               <div className="post-info">
                 <h4 className="post-category" 
@@ -45,9 +44,11 @@ const IndexPage = () => {
                 <h4 className="post-info-divider">-</h4>
                 <h4 className="post-date">{edge.node.frontmatter.date}</h4>
                 <h4 className="post-info-divider">-</h4>
-                { edge.node.frontmatter.tags.map(tag => (
-                  <span key={tag} className="post-tag">{tag}</span>
-                )) } 
+                <div className="post-tags">
+                  { edge.node.frontmatter.tags.map(tag => (
+                    <span key={tag} className="post-tag">{tag}</span>
+                  )) } 
+                </div>
               </div>
             </li>
           )) }
