@@ -6,12 +6,15 @@ import Head from '../components/head'
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
             frontmatter {
               title
               date
+              category
+              category_color
+              tags
             }
             fields {
               slug
@@ -34,6 +37,18 @@ const IndexPage = () => {
                 <h2>{edge.node.frontmatter.title}</h2>
                 <p>{edge.node.frontmatter.date}</p>
               </Link>
+              <div className="post-info">
+                <h4 className="post-category" 
+                  style={{color: edge.node.frontmatter.category_color}}>
+                  {edge.node.frontmatter.category}
+                </h4> 
+                <h4 className="post-info-divider">-</h4>
+                <h4 className="post-date">{edge.node.frontmatter.date}</h4>
+                <h4 className="post-info-divider">-</h4>
+                { edge.node.frontmatter.tags.map(tag => (
+                  <span key={tag} className="post-tag">{tag}</span>
+                )) } 
+              </div>
             </li>
           )) }
         </ul>

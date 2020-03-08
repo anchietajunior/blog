@@ -204,9 +204,33 @@ body::-webkit-scrollbar-thumb {
   text-shadow: 2px 2px 2px #000000
 }
 
-.post-date {
+.post-info {
+  display: flex;
+  margin: 25px 0 30px;
   font-family: 'Josefin Sans', sans-serif;
-  color: #FFF;
-  margin: 20px 0 30px;
+  color: #777;
   font-size: 1.2em;
+}
+
+.post-category {
+  padding-top: 5px;
+}
+
+.post-info-divider {
+  color: #FFF;
+  padding: 3px 10px 0;
+}
+
+.post-date {
+  padding-top: 5px;
+  position: relative;
+}
+
+.post-tag {
+  top: -10px;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: .8em;
+  background: #e4e4e4;
+  color: #000;
 }
