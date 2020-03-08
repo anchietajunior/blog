@@ -14,9 +14,9 @@ const ContactPage = () => {
           (Unirios) e atualmente estou me especializando em Arquitetura de Sistemas Distribuídos.
         </p>
 
-        <p>Você pode me encontrar pelo <a href="https://twitter.com/anchietajnr" target="_blank">Twitter</a>, 
-          <a href="https://github.com/anchietajunior" target="_blank">Github</a>, 
-          <a href="https://www.linkedin.com/in/anchietajunior/" target="_blank">Linkedin</a> ou 
+        <p>Você pode me encontrar pelo <a href="https://twitter.com/anchietajnr" rel="noopener noreferrer" target="_blank">Twitter</a>, 
+          <a href="https://github.com/anchietajunior" rel="noopener noreferrer" target="_blank">Github</a>, 
+          <a href="https://www.linkedin.com/in/anchietajunior/" rel="noopener noreferrer" target="_blank">Linkedin</a> ou 
           pelo e-mail: santosjr87@gmail.com</p>
       </div>
     </Layout>

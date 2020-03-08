@@ -10,6 +10,13 @@ module.exports = {
     author: 'Anchieta'
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-157282795-1",
+        head: true
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
