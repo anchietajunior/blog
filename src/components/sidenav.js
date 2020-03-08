@@ -29,8 +29,8 @@ const SideNav = () => {
         </ul>
         <hr className="sidenav-divider" />
         <ul className="sidenav-social">
-          <li><a href="https://www.linkedin.com/in/anchietajunior/" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-          <li><a href="https://github.com/anchietajunior" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+          <li><a href="https://www.linkedin.com/in/anchietajunior/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+          <li><a href="https://github.com/anchietajunior" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
         </ul>
       </nav>
     </>
