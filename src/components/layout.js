@@ -1,19 +1,15 @@
 import React from 'react'
-import Header from './header'
-import Footer from './footer'
+import SideNav from './sidenav'
 
 import '../styles/index.scss'
-import layoutStyles from './layout.module.scss'
+import '../styles/highlight.scss'
 
 const Layout = (props) => {
   return (
-    <div className={layoutStyles.container}>
-      <div className={layoutStyles.content}>
-        <Header />
-        { props.children }
-      </div>
-      <Footer />
-    </div>
+    <>
+      <SideNav />
+      <main className="container">{ props.children }</main>
+    </>
   )
 }
 

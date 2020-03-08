@@ -10,6 +10,7 @@ module.exports = {
     author: 'Anchieta'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
@@ -28,8 +29,21 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 750,
+              maxWidth: 900,
+              wrapperStyle:
+                'border: 5px solid #333; margin-left: 0; margin-right: 0; margin-top: 30px; margin-bottom: 30px;',
               linkImagesToOriginal: false
+            }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              prompt: {
+                user: "root",
+                host: "localhost",
+                global: false,
+              },
             }
           }
         ]
