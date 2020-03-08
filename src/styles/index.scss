@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
     
     a {
       margin-left: 10px;
-      color: #777;
+      color: #FFF;
       font-family: 'Josefin Sans', sans-serif;
       text-decoration: none;
       font-size: 1.6em;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb {
   color: #FFF;
   font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
-  font-size: 2.6em;
+  font-size: 1.9em;
   transition: 0.5s;
 
   &:hover {
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
 
   li {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding: 10px; 
 
     a {
@@ -178,17 +178,26 @@ body::-webkit-scrollbar-thumb {
   color: #FFF;
   text-align: left;
 
+  h2 {
+    font-size: 2em;
+    color: #DAE311;
+  }
+
   img {
     left: 0;
   }
 
+  em {
+    color: #777;
+  }
+
   p {
-    margin: 15px 0;
+    margin: 20px 0;
     font-size: 1.2em;
   }
 
-  h2 {
-
+  a {
+    color: #DAE311;
   }
 
   ul {
@@ -201,7 +210,11 @@ body::-webkit-scrollbar-thumb {
   color: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 3.2em;
-  text-shadow: 2px 2px 2px #000000
+  text-shadow: 2px 2px 2px #000000;
+
+  @media (max-width: 600px) {
+    font-size: 2.4em;
+  }
 }
 
 .post-info {

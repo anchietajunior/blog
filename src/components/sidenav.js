@@ -8,11 +8,8 @@ const SideNav = () => {
   return (
     <>
       <nav className="sidenav-mobile">
-        <Link to="/">Anchieta Jr.</Link>
+        <Link to="/">anchietajunior.com</Link>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
           <li>
             <Link to="/contact">Contato</Link>
           </li>
@@ -20,7 +17,7 @@ const SideNav = () => {
       </nav>
       <nav className="sidenav">
         <Link className="sidenav-title" to="/">
-          Anchieta Jr.
+          anchietajunior.com
         </Link>
         <hr className="sidenav-divider" />
         <ul className="sidenav-list">
