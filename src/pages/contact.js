@@ -18,6 +18,13 @@ const ContactPage = () => {
           <a href="https://github.com/anchietajunior" rel="noopener noreferrer" target="_blank">Github</a>, 
           <a href="https://www.linkedin.com/in/anchietajunior/" rel="noopener noreferrer" target="_blank">Linkedin</a> ou 
           pelo e-mail: santosjr87@gmail.com</p>
+
+          <p>Gostou do conteúdo?</p>
+
+          <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/VCUyWLi">
+            <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Contribua com um café" />
+            <span style={{fontSize: `1.4em !important`}}>Contribua com um café</span>
+          </a>
       </div>
     </Layout>
   )
