@@ -32,7 +32,7 @@ const SideNav = () => {
         <div className="buy-me">
           <p>Gostou do conteúdo?</p>
 
-          <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/VCUyWLi">
+          <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/VCUyWLi" rel="noopener noreferrer">
             <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Contribua com um café" />
             <span style={{fontSize: `1.4em !important`}}>Contribua com um café</span>
           </a>
