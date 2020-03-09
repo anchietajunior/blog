@@ -6,6 +6,8 @@ category_color: "#e02b11"
 tags: ["TDD", "Rails", "RSpec"]
 ---
 
+![React](./rspec.jpg)
+
 Sou um defensor do TDD e recomendo a todos o uso das práticas do TDD em seus projetos, lógico, depende do tamanho do sistema e da complexidade das funcionalidades do mesmo, mas isso é um assunto pra outra hora, aqui vai uma configuração inicial do RSpec, biblioteca mais utilizada para testes no ecossistema Ruby e Rails, então, let's do it!
 
 Supondo que já tenha um projeto Rails criado, acesse o seu arquivo Gemfile e adicione:
