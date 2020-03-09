@@ -82,15 +82,22 @@ Então, nosso teste deve ficar assim:
 
 ```jsx
 import React from 'react';
+// Importa Enzyme e o módulo Shallow
 import Enzyme, { shallow } from 'enzyme';
+// Importa o Enzyme adapter
 import EnzymeAdapter from 'enzyme-adapter-react-16';
 
+// Importa o App component
 import App from './App';
 
+// Configura o Enzyme para utilizar o EnzymeAdapter
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
+// Cria o primeiro teste
 test('renders without error', () => {
+  // Cria uma variável utilizando o Shallow e passando o App component como parâmetro
   const wrapper = shallow(<App />);
+  // Assert para verificar se o App component renderizado pelo Shallow está vazio, nulo ou undefined
   expect(wrapper).toBeTruthy();
 });
 ```
