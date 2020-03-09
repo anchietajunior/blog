@@ -6,6 +6,8 @@ category_color: "orange"
 tags: ["MacOs", "Catalina", "Environment"]
 ---
 
+![React](./macoscatalina.png)
+
 Não é comum reinstalar o MacOS e reconfigurar todo o ambiente de desenvolvimento, 
 porém recentemente decidi fazer isso apenas para utilizar a nova versão do MacOs (Catalina)
 com uma nova instalação, então deixo aqui o que foi instalado e configurado na minha máquina.
