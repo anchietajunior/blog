@@ -1,5 +1,5 @@
 ---
-title: "Introdução ao Git e Github, publiquei seus primeiros códigos"
+title: "Introdução ao Git e Github, publique seus primeiros códigos"
 date: "10/03/2020"
 category: "Git"
 category_color: "#e4e4e4"
