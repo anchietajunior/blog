@@ -33,7 +33,9 @@ Através de um projeto no qual o código esteja versionado, facilmente cada um d
 
 ## Git
 
-O site [Tableless](http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/) cita que o" Git é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas."
+O site [Tableless](http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/) cita que:
+
+***"o Git é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas."***
 
 O git foi criado por volta de 2005 por ninguém menos que Linus Torvalds, criador do Linux, núcleo do GNU/Linux e tem como uma de suas maiores vantagens a facilidade de criação e manuseio de ramificações (Branch) do projeto. O conceito de Branch pode ser tratado em uma publicação futura, devido aos detalhes e importância dentro dos conceitos do Git.
 
