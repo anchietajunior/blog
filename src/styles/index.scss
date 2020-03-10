@@ -198,6 +198,11 @@ body::-webkit-scrollbar-thumb {
     color: #DAE311;
   }
 
+  h3 {
+    font-size: 1.6em;
+    color: #E5B204;
+  }
+
   img {
     left: 0;
   }
@@ -218,6 +223,7 @@ body::-webkit-scrollbar-thumb {
   ul {
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
