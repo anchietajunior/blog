@@ -252,4 +252,5 @@ Binary Gaps Equal
  => "OK"
 ```
 
-Então, é isso.
+Então, é isso, caso tenha encontrado uma forma melhor? [Fala comigo](www.anchietajunior.com/contact) por
+e-mail e vamos conversar mais a respeito.
