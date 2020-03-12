@@ -11,6 +11,12 @@ module.exports = {
   },
   plugins: [
     {
+    resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/favicon.png`
+      }
+    },
+    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: '753866894669622',
