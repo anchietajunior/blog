@@ -6,7 +6,7 @@ category_color: "#e02b11"
 tags: ["Algoritmo", "Ruby", "BinaryGap"]
 ---
 
-![React](./binary_gap.png)
+![Binary Gap Ruby](./binary_gap.png)
 
 Recentemente criei minha conta no [Codility](https://www.codility.com/), uma plataforma que ajuda recrutadores a encontrarem programadores e que possui vários algoritmos e exercícios para programadores treinarem suas habilidades.
 
