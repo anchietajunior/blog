@@ -1,6 +1,6 @@
 ---
 title: "MacOS Catalina: Configurando um novo ambiente de desenvolvimento"
-date: "08/03/2020"
+date: "2020/03/08"
 category: "Misc"
 category_color: "orange"
 tags: ["MacOs", "Catalina", "Environment"]

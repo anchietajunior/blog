@@ -1,6 +1,6 @@
 ---
 title: "Introdução ao Git e Github, publique seus primeiros códigos"
-date: "10/03/2020"
+date: "2020/03/10"
 category: "Git"
 category_color: "#e4e4e4"
 tags: ["Versionamento", "Git", "Github"]

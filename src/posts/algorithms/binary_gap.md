@@ -1,6 +1,6 @@
 ---
 title: "Algoritmo BinaryGap com Ruby"
-date: "11/03/2020"
+date: "2020/03/11"
 category: "Ruby"
 category_color: "#e02b11"
 tags: ["Algoritmo", "Ruby", "BinaryGap"]

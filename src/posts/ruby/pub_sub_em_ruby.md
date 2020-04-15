@@ -1,6 +1,6 @@
 ---
 title: "Pub/Sub com Ruby e Redis"
-date: "27/03/2020"
+date: "2020/03/27"
 category: "Ruby"
 category_color: "#e02b11"
 tags: ["Ruby", "Pub/Sub", "Redis"]

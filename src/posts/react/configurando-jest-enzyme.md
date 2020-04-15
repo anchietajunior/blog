@@ -1,6 +1,6 @@
 ---
 title: "Configurando Jest e Enzyme em apps React"
-date: "06/03/2020"
+date: "2020/03/06"
 category: "React"
 category_color: "#61dafb"
 tags: ["TDD", "React", "Jest", "Enzyme"]
