@@ -1,6 +1,6 @@
 ---
 title: "Dicas de ferramentas e técnicas para auxiliar no home office"
-date: "18/03/2020"
+date: "2020/03/18"
 category: "Misc"
 category_color: "orange"
 tags: ["Home Office", "Ferramentas"]

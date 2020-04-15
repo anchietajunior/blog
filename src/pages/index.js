@@ -2,6 +2,12 @@ import React from 'react'
 import Layout from '../components/layout'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Head from '../components/head'
+import { format } from 'date-fns';
+
+function brDate(date) {
+  const postDate = new Date(date)
+  return format(postDate, 'dd/MM/yyyy')
+}
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -41,7 +47,7 @@ const IndexPage = () => {
                   {edge.node.frontmatter.category}
                 </h4> 
                 <h4 className="post-info-divider">-</h4>
-                <h4 className="post-date">{edge.node.frontmatter.date}</h4>
+                <h4 className="post-date">{brDate(edge.node.frontmatter.date)}</h4>
                 <h4 className="post-info-divider">-</h4>
                 <div className="post-tags">
                   { edge.node.frontmatter.tags.map(tag => (

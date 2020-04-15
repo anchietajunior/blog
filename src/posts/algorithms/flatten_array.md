@@ -1,6 +1,6 @@
 ---
 title: "Algoritmo Flatten Array com Ruby"
-date: "14/03/2020"
+date: "2020/03/14"
 category: "Ruby"
 category_color: "#e02b11"
 tags: ["Algoritmo", "Ruby", "Flatten Array"]
