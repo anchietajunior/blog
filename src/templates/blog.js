@@ -3,6 +3,12 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import { format } from 'date-fns';
+
+function brDate(date) {
+  const postDate = new Date(date)
+  return format(postDate, 'dd/MM/yyyy')
+}
 
 export const query = graphql`
   query ($slug: String!) {
@@ -31,7 +37,7 @@ const Blog = (props) => {
             {props.data.markdownRemark.frontmatter.category}
           </h4> 
           <h4 className="post-info-divider">-</h4>
-          <h4 className="post-date">{props.data.markdownRemark.frontmatter.date}</h4>
+          <h4 className="post-date">{brDate(props.data.markdownRemark.frontmatter.date)}</h4>
           <h4 className="post-info-divider">-</h4>
           { props.data.markdownRemark.frontmatter.tags.map(tag => (
             <span className="post-tag">{tag}</span>

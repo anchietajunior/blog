@@ -201,12 +201,17 @@ body::-webkit-scrollbar-thumb {
 
   h2 {
     font-size: 2em;
-    color: #DAE311;
+    color: #8db1ab;
   }
 
   h3 {
     font-size: 1.6em;
-    color: #E5B204;
+    color: #f2ed6f;
+  }
+
+  h4 {
+    font-size: 1.3em;
+    color: #cee397;
   }
 
   img {
@@ -255,6 +260,7 @@ body::-webkit-scrollbar-thumb {
 
 .post-category {
   padding-top: 5px;
+  font-size: 1.1em !important;
 }
 
 .post-info-divider {
@@ -264,6 +270,8 @@ body::-webkit-scrollbar-thumb {
 
 .post-date {
   padding-top: 5px;
+  color: #FFF !important;
+  font-size: 1.1em !important;
   position: relative;
 }
 
@@ -278,8 +286,9 @@ body::-webkit-scrollbar-thumb {
 .post-tag {
   top: -10px;
   margin-right: 5px;
-  padding: 5px;
+  padding: 7px 5px 5px 5px;
   font-size: .8em;
+  border-radius: 4px;
   background: #e4e4e4;
   color: #000;
 }
