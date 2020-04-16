@@ -1,5 +1,5 @@
 ---
-title: "Criando uma JSON API com Sinatra"
+title: "Criando JSON APIs com Sinatra e manuseando os parâmetros das requisições"
 date: "2020/04/15"
 category: "Sinatra"
 category_color: "#e02b11"
