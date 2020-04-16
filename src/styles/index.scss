@@ -236,6 +236,16 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  table {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+  }
+
+  table, th, td {
+    border: 2px solid white;
+    padding: 10px;
+  }
 }
 
 .post-title {
