@@ -39,7 +39,7 @@ Sabendo disso, podemos criar a função ***solution***.
 
 ## Criando função Solution
 
-A função ***Solution*** é quem irá receber o número inteiro (N), transformar esse número em binário e daí em diante fazer executar nosso algorítmo.
+A função ***Solution*** é quem irá receber o número inteiro (N), transformar esse número em binário e daí em diante executar nosso algorítmo.
 
 Então já podemos começar a representa-la e transformar o parâmetro N em binário.
 
@@ -105,7 +105,7 @@ def solution n
 end
 ```
 
-## Se o caractere seja "1"
+## Caso o caractere seja "1"
 
 Se a variável char dentro do nosso ***each_char*** for "1", primeiro, criamos uma outra verificação, pra saber se o array temp não está vazio, ou seja, se o array temp estiver vazio significa que não possuímos nenhum 0 ainda e não quereremos fazer nada com essa condição.
 
