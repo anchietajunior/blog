@@ -57,6 +57,8 @@ A página home criada anteriormente fica assim:
 </div>
 ```
 
+## Criando controller Stimulus
+
 Precisamos criar um controller Stimulus pra executar as ações que vamos criar na nossa página.
 
 Na pasta app/javascript/controllers adicione um arquivo chamado counter_controller.js com o seguinte conteúdo:
