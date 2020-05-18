@@ -321,3 +321,26 @@ body::-webkit-scrollbar-thumb {
 .contact-title {
   margin-bottom: 20px;
 }
+
+.reading-list {
+  li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #666;
+
+    h2 {
+      font-size: 1.8em;
+    }
+
+    span {
+      padding: 15px 0;
+
+      strong {
+	color: #DAE311;
+	padding: 5px;
+      }
+    }
+  }
+}

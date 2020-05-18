@@ -11,6 +11,9 @@ const SideNav = () => {
         <Link to="/">anchietajunior.com</Link>
         <ul>
           <li>
+            <Link to="/reading">Leituras</Link>
+          </li>
+          <li>
             <Link to="/contact">Contato</Link>
           </li>
         </ul>
@@ -22,6 +25,7 @@ const SideNav = () => {
         <hr className="sidenav-divider" />
         <ul className="sidenav-list">
           <li><Link className="sidenav-item" to="/">Home</Link></li>
+          <li><Link className="sidenav-item" to="/reading">Leituras</Link></li>
           <li><Link className="sidenav-item" to="/contact">Contato</Link></li>
         </ul>
         <hr className="sidenav-divider" />
