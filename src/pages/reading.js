@@ -53,6 +53,51 @@ const ReadingPage = () => {
 	    </span>
 	    <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12100776/1009412203.jpg?v=637142217795870000" height="200" width="150" />
 	  </li>
+	  <li>
+	    <h2>A arte da guerra</h2>
+	    <span>
+	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Início:</strong> 16/02/2020 | 
+	      <strong>Status:</strong> Concluído
+	    </span>
+	    <img src="https://m.media-amazon.com/images/I/71NLiovE0wL._AC_UL640_FMwebp_QL65_.jpg" height="200" width="150" />
+	  </li>
+	  <li>
+	    <h2>Trabalho focado: Como ter sucesso em um mundo distraído</h2>
+	    <span>
+	      <strong>Tema:</strong> Autoajuda/Carreira |
+	      <strong>Início:</strong> 23/12/2019 | 
+	      <strong>Status:</strong> Concluído
+	    </span>
+	    <img src="https://m.media-amazon.com/images/I/61XDczCKI0L._AC_UL640_FMwebp_QL65_.jpg" height="200" width="150" />
+	  </li>
+	  <li>
+	    <h2>O poder do hábito</h2>
+	    <span>
+	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Início:</strong> 09/08/2019 | 
+	      <strong>Status:</strong> Em progresso
+	    </span>
+	    <img src="https://m.media-amazon.com/images/I/81LaOMaH59L._AC_UL640_FMwebp_QL65_.jpg" height="200" width="150" />
+	  </li>
+	  <li>
+	    <h2>O milagre da manhã</h2>
+	    <span>
+	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Início:</strong> 09/05/2019 | 
+	      <strong>Status:</strong> Concluído
+	    </span>
+	    <img src="https://images-na.ssl-images-amazon.com/images/I/41zcA8iynSL._SX309_BO1,204,203,200_.jpg" height="200" width="150" />
+	  </li>
+	  <li>
+	    <h2>Por que fazemos o que fazemos?</h2>
+	    <span>
+	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Início:</strong> 11/10/2018 | 
+	      <strong>Status:</strong> Concluído
+	    </span>
+	    <img src="https://m.media-amazon.com/images/I/8195vftI5IL._AC_UL640_FMwebp_QL65_.jpg" height="200" width="150" />
+	  </li>
 	</ul>
       </div>
     </Layout>
