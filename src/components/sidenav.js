@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 const SideNav = () => {
   return (
@@ -32,11 +31,9 @@ const SideNav = () => {
         <ul className="sidenav-social">
           <li><a href="https://www.linkedin.com/in/anchietajunior/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
           <li><a href="https://github.com/anchietajunior" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+          <li><a href="https://twitter.com/anchietajnr" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
+          <li><a href="https://www.youtube.com/channel/UCvg33g94GGI_Arit_whHcXA" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} /></a></li>
         </ul>
-        <div className="buy-me">
-          <p>Gostou do conteúdo?</p>
-          <p><a href="https://www.patreon.com/anchietajunior?fan_landing=true">Seja um Patreon</a></p>
-        </div>
       </nav>
     </>
   )

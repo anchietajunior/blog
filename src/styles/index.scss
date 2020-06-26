@@ -138,12 +138,12 @@ body::-webkit-scrollbar-thumb {
   li {
     margin-right: 20px;
     a {
-      color: #FFF;
+      color: #DAE311;
       font-size: 2em;
       transition: 0.5s;
 
       &:hover {
-        color: #777;
+        color: #FFF;
       }
     }
   }
@@ -315,6 +315,12 @@ body::-webkit-scrollbar-thumb {
   a {
     color: #DAE311;
     padding: 5px;
+  }
+
+  h2 {
+    font-size: 2em;
+    color: #999;
+    margin-bottom: 30px;
   }
 }
 
