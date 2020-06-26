@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import coverImage from "../assets/cover.png"
 
 const CoverPage = () => {
   return (
@@ -63,6 +64,7 @@ const CoverPage = () => {
         So far, it's been a great journey and i know it's just the beginning.
         </p>
           
+        <img src={coverImage} class="hidden-image" />
       </div>
     </Layout>
   )
