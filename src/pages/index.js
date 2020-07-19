@@ -51,7 +51,7 @@ const IndexPage = () => {
                 <h4 className="post-info-divider">-</h4>
                 <div className="post-tags">
                   { edge.node.frontmatter.tags.map(tag => (
-                    <span key={tag} className="post-tag">{tag}</span>
+                    <span key={tag} className="post-tag tag-index">| {tag}</span>
                   )) } 
                 </div>
               </div>

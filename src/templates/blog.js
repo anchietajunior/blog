@@ -40,7 +40,7 @@ const Blog = (props) => {
           <h4 className="post-date">{brDate(props.data.markdownRemark.frontmatter.date)}</h4>
           <h4 className="post-info-divider">-</h4>
           { props.data.markdownRemark.frontmatter.tags.map(tag => (
-            <span className="post-tag">{tag}</span>
+            <span className="post-tag">| {tag}</span>
           )) } 
         </div>
         <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>

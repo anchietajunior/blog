@@ -45,13 +45,14 @@ body::-webkit-scrollbar-thumb {
     ul {
       display: flex;
       list-style: none;
+      margin-right: 11px;
 
       li {
-        margin-right: 10px;
+        margin-top: 5px;
 
         a {
-          color: #FFF;
-          font-size: 1.4em;
+          color: #DAE311;
+          font-size: 1em;
         }
       }
     }
@@ -296,11 +297,13 @@ body::-webkit-scrollbar-thumb {
 .post-tag {
   top: -10px;
   margin-right: 5px;
-  padding: 7px 5px 5px 5px;
-  font-size: .8em;
-  border-radius: 4px;
-  background: #e4e4e4;
-  color: #000;
+  font-size: 1.2em;
+  color: #e4e4e4;
+  padding: 4px 0 5px 3px;
+}
+
+.tag-index {
+  padding-top: 2px;
 }
 
 .contact-page {
