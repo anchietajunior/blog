@@ -60,6 +60,20 @@ const CoverPage = () => {
         </p>
 
         <p>
+        Since July 2020 i am working at Checkplant, a company focused on 
+        solutions for agribusiness, which develops systems that help from 
+        the planning of plantations to the geographic control of rains, 
+        pests, crops, etc.
+        </p>
+
+        <p>
+        So far, I have learned to improve my communication skills with my 
+        team and with all sectors of a company, in addition to being involved 
+        in several projects using Ruby, Sinatra, Rails and Javascript, AngularJS, 
+        React and etc.
+        </p>
+
+        <p>
         So far, it's been a great journey and i know it's just the beginning.
         </p>
           
