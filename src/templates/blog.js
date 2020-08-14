@@ -36,9 +36,9 @@ const Blog = (props) => {
             style={{color: props.data.markdownRemark.frontmatter.category_color}}>
             {props.data.markdownRemark.frontmatter.category}
           </h4> 
-          <h4 className="post-info-divider">-</h4>
+          <h4 className="post-info-divider" style={{paddingTop: `0`}}>-</h4>
           <h4 className="post-date">{brDate(props.data.markdownRemark.frontmatter.date)}</h4>
-          <h4 className="post-info-divider">-</h4>
+          <h4 className="post-info-divider" style={{paddingTop: `0`}}></h4>-</h4>
           { props.data.markdownRemark.frontmatter.tags.map(tag => (
             <span className="post-tag">| {tag}</span>
           )) } 

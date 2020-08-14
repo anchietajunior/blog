@@ -46,10 +46,10 @@ const IndexPage = () => {
                   style={{color: edge.node.frontmatter.category_color}}>
                   {edge.node.frontmatter.category}
                 </h4> 
-                <h4 className="post-info-divider">-</h4>
+                <h4 className="post-info-divider" style={{padding: `6px`}}>-</h4>
                 <h4 className="post-date">{brDate(edge.node.frontmatter.date)}</h4>
-                <h4 className="post-info-divider">-</h4>
-                <div className="post-tags">
+                <h4 className="post-info-divider" style={{padding: `6px`}}>-</h4>
+                <div className="post-tags" style={{paddingTop: `3px`}}>
                   { edge.node.frontmatter.tags.map(tag => (
                     <span key={tag} className="post-tag tag-index">| {tag}</span>
                   )) } 
