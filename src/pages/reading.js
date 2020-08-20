@@ -13,7 +13,7 @@ const ReadingPage = () => {
 	    <span>
 	      <strong>Tema:</strong> Carreira |
 	      <strong>Início:</strong> 10/08/2020 | 
-	      <strong>Status:</strong> Finalizado
+	      <strong>Status:</strong> Concluído
 	    </span>
 	    <img src="https://m.media-amazon.com/images/I/41CMBTOeJ1L._SY346_.jpg" height="200" width="150" />
 	  </li>
