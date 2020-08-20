@@ -8,6 +8,15 @@ const ReadingPage = () => {
         <h1 className="page-title contact-title">Leituras</h1>
 
 	<ul class="reading-list">
+		<li>
+	    <h2>14 Hábitos de Desenvolvedores Altamente Produtivos</h2>
+	    <span>
+	      <strong>Tema:</strong> Carreira |
+	      <strong>Início:</strong> 10/08/2020 | 
+	      <strong>Status:</strong> Finalizado
+	    </span>
+	    <img src="https://m.media-amazon.com/images/I/41CMBTOeJ1L._SY346_.jpg" height="200" width="150" />
+	  </li>
 	  <li>
 	    <h2>Código limpo: Habilidades Práticas do Agile Software</h2>
 	    <span>
