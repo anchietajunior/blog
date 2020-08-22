@@ -9,6 +9,15 @@ const ReadingPage = () => {
 
 	<ul class="reading-list">
 		<li>
+	    <h2>Arrume sua cama: Pequenas coisas que podem mudar a sua vida... E talvez o mundo</h2>
+	    <span>
+	      <strong>Tema:</strong> Autoconhecimento |
+	      <strong>Início:</strong> 19/08/2020 | 
+	      <strong>Status:</strong> Em progresso
+	    </span>
+	    <img src="https://images-na.ssl-images-amazon.com/images/I/51st+ecW1aL._SX331_BO1,204,203,200_.jpg" height="200" width="150" />
+	  </li>
+		<li>
 	    <h2>14 Hábitos de Desenvolvedores Altamente Produtivos</h2>
 	    <span>
 	      <strong>Tema:</strong> Carreira |
@@ -38,7 +47,7 @@ const ReadingPage = () => {
 	  <li>
 	    <h2>Essencialismo: A disciplinada busca por menos</h2>
 	    <span>
-	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Tema:</strong> Autoconhecimento |
 	      <strong>Início:</strong> 10/04/2020 | 
 	      <strong>Status:</strong> Em progresso
 	    </span>
@@ -65,7 +74,7 @@ const ReadingPage = () => {
 	  <li>
 	    <h2>A arte da guerra</h2>
 	    <span>
-	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Tema:</strong> Autoconhecimento |
 	      <strong>Início:</strong> 16/02/2020 | 
 	      <strong>Status:</strong> Concluído
 	    </span>
@@ -74,7 +83,7 @@ const ReadingPage = () => {
 	  <li>
 	    <h2>Trabalho focado: Como ter sucesso em um mundo distraído</h2>
 	    <span>
-	      <strong>Tema:</strong> Autoajuda/Carreira |
+	      <strong>Tema:</strong> Autoconhecimento/Carreira |
 	      <strong>Início:</strong> 23/12/2019 | 
 	      <strong>Status:</strong> Concluído
 	    </span>
@@ -83,7 +92,7 @@ const ReadingPage = () => {
 	  <li>
 	    <h2>O poder do hábito</h2>
 	    <span>
-	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Tema:</strong> Autoconhecimento |
 	      <strong>Início:</strong> 09/08/2019 | 
 	      <strong>Status:</strong> Em progresso
 	    </span>
@@ -92,7 +101,7 @@ const ReadingPage = () => {
 	  <li>
 	    <h2>O milagre da manhã</h2>
 	    <span>
-	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Tema:</strong> Autoconhecimento |
 	      <strong>Início:</strong> 09/05/2019 | 
 	      <strong>Status:</strong> Concluído
 	    </span>
@@ -101,7 +110,7 @@ const ReadingPage = () => {
 	  <li>
 	    <h2>Por que fazemos o que fazemos?</h2>
 	    <span>
-	      <strong>Tema:</strong> Autoajuda |
+	      <strong>Tema:</strong> Autoconhecimento |
 	      <strong>Início:</strong> 11/10/2018 | 
 	      <strong>Status:</strong> Concluído
 	    </span>
