@@ -1,5 +1,5 @@
 import React from 'react'
-import SideNav from './sidenav'
+import Menu from './menu'
 
 import '../styles/index.scss'
 import '../styles/highlight.scss'
@@ -7,7 +7,7 @@ import '../styles/highlight.scss'
 const Layout = (props) => {
   return (
     <>
-      <SideNav />
+      <Menu />
       <main className="container">{ props.children }</main>
     </>
   )

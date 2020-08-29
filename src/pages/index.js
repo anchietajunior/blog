@@ -37,24 +37,16 @@ const IndexPage = () => {
       { data ? (
         <ul className="posts-list">
           { data.allMarkdownRemark.edges.map((edge) => (
-            <li key={edge.node.fields.slug}>
+            <li key={edge.node.fields.slug} class="posts-list-post">
               <Link to={`/blog/${edge.node.fields.slug}`}>
-                <h2>{edge.node.frontmatter.title}</h2>
-              </Link>
-              <div className="post-info">
-                <h4 className="post-category" 
-                  style={{color: edge.node.frontmatter.category_color}}>
+                
+                <span class="posts-list-post-date">{brDate(edge.node.frontmatter.date)}</span>
+                <span class="posts-list-post-category" style={{color: edge.node.frontmatter.category_color}}>
                   {edge.node.frontmatter.category}
-                </h4> 
-                <h4 className="post-info-divider" style={{padding: `6px`}}>-</h4>
-                <h4 className="post-date">{brDate(edge.node.frontmatter.date)}</h4>
-                <h4 className="post-info-divider" style={{padding: `6px`}}>-</h4>
-                <div className="post-tags" style={{paddingTop: `3px`}}>
-                  { edge.node.frontmatter.tags.map(tag => (
-                    <span key={tag} className="post-tag tag-index">| {tag}</span>
-                  )) } 
-                </div>
-              </div>
+                </span>
+                <span class="posts-list-post-title">{edge.node.frontmatter.title}</span>
+                
+              </Link>
             </li>
           )) }
         </ul>
