@@ -34,6 +34,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Blog" />
+        <h1 className="page-title">Posts</h1>
       { data ? (
         <ul className="posts-list">
           { data.allMarkdownRemark.edges.map((edge) => (
