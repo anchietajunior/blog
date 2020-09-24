@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Head from '../components/head'
-import { format } from 'date-fns';
+import { format } from 'date-fns'
 
 function brDate(date) {
   const postDate = new Date(date)
@@ -41,11 +41,17 @@ const IndexPage = () => {
             <li key={edge.node.fields.slug} class="posts-list-post">
               <Link to={`/blog/${edge.node.fields.slug}`}>
                 
-                <span class="posts-list-post-date">{brDate(edge.node.frontmatter.date)}</span>
-                <span class="posts-list-post-category" style={{color: edge.node.frontmatter.category_color}}>
-                  {edge.node.frontmatter.category}
+                {/* <span class="posts-list-post-date">{brDate(edge.node.frontmatter.date)}</span> */}
+                <span class="posts-list-post-category" >
+                  {`-> posts/`}
+                  <span style={{color: edge.node.frontmatter.category_color}}>
+                    {edge.node.frontmatter.category}
+                  </span>
+                  {` - (${brDate(edge.node.frontmatter.date)})`}
                 </span>
-                <span class="posts-list-post-title">{edge.node.frontmatter.title}</span>
+                <p>
+                  <span class="posts-list-post-title">{edge.node.frontmatter.title}</span>
+                </p>
                 
               </Link>
             </li>

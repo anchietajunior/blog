@@ -11,7 +11,7 @@ const ReadingPage = () => {
 	<ul class="reading-list">
 		{books.map(book => (
 			<li class="reading-list-book" key={book.title}>
-				<img src={book.image} height="200" width="150" />
+				<img src={book.image} height="200" width="150" alt={book.title} />
 				<div class="reading-list-book-details">
 					<a href={book.url}>{book.title}</a>
 					<div>
