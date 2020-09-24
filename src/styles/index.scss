@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 * {
   margin: 0;
@@ -84,7 +85,7 @@ body::-webkit-scrollbar-thumb {
 
 .container {
   max-width: 900px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Courier Prime', monospace;
   margin: 0 auto;
   padding: 0 100px 100px;
 
