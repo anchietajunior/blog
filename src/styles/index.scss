@@ -198,6 +198,19 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.2em;
   }
 
+  .music {
+    margin: 50px 0;
+  }
+
+  blockquote {
+    p {
+      color: #666;
+      line-height: 2px;
+      padding-left: 20px;
+      font-style: italic;
+    }
+  }
+
   a {
     color: #06d6a0;
   }
