@@ -220,6 +220,21 @@ body::-webkit-scrollbar-thumb {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    li {
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+    color: #000;
+
+    em {
+      font-weight: bold;
+      color: #000;
+    }
   }
 
   table {
