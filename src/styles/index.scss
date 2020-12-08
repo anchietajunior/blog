@@ -194,6 +194,9 @@ body::-webkit-scrollbar-thumb {
   img {
     left: 0;
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   em {
@@ -219,7 +222,8 @@ body::-webkit-scrollbar-thumb {
   }
 
   a {
-    color: #06d6a0;
+    color: #777;
+    font-style: italic;
   }
 
   ul {
